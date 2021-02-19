@@ -2,7 +2,7 @@
 
 ## Copy Constructor Issue
 
-### std::move
+### Issue with std::move
 
 
 ### Unique Pointer with Container (Vector, Map ...)
@@ -10,4 +10,6 @@
 1. `class(const class&) = delete;`
 2. `class& operator=(const class&) = delete;`
 
-And only leave the move copy constructor (`class(const class&&)`) to make it consistency with `unique pointer` usage. Ref: https://stackoverflow.com/questions/21943569/deleted-function-unique-ptr
+And only leave the move copy constructor (`class(const class&&)`) to make it consistency with `unique pointer` usage. 
+
+**Ref**: https://stackoverflow.com/questions/21943569/deleted-function-unique-ptr
