@@ -1,5 +1,8 @@
 # Useful Note When Programming In CPP
 
+## General Advice
+1. Use pointer is always better. Fxxk reference!
+
 ## Copy Constructor Issue
 
 ### Issue with std::move
